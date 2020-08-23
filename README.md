@@ -2,12 +2,10 @@
 
 This project aims at transfering optimization techniques to integration methods, called Performance Estimation Problems (PEP).
 The following code provide a numerical tool to analyse algorithms, from optimization or integration, in terms of convergence to optimality and contraction between two sequences.
-We formulate the search for convergence and contraction rates over the family of smooth-stronly convex functions as a worst-case analysis that can be handled thnks to semi-definite programming. 
-More details are given in the references.
-
+We formulate the search for convergence and contraction rates over the family of smooth-stronly convex functions as a worst-case analysis that can be handled thanks to semi-definite programming. More details are given in the references.
 we provide the code for analyzing two families of methods from the integration setting : 
 - Runge-Kutta methods (gradient descent, extragradient, implicit Euler)
-- Linear-Multi-Step metods (Polyak Heavy Ball, Nesterov's accelerated method, Triple Momentum, etc.)
+- Linear-Multi-Step methods (Polyak Heavy Ball, Nesterov's accelerated method, Triple Momentum, etc.)
 
 
 
