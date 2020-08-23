@@ -81,6 +81,6 @@ Two examples given for :
 ## References
 
 * [PEP toolbox](https://github.com/AdrienTaylor/Performance-Estimation-Toolbox) - Adrien Taylor
-* [Y. Drori, M. Teboulle : Performance Estimation Problems](https://arxiv.org/abs/1206.3209)
-* [A. Taylor, J. Hendrickx, F. Glineur : Smooth Strongly Convex Interpolation and Exact Worst-case Performance of First-order Methods](https://arxiv.org/abs/1502.05666)
-* [D. Scieur, V. Roulet, F. Bach, A. d'Aspremont : Integration Methods and Accelerated Optimization Algorithms](https://arxiv.org/abs/1702.06751)
+* [Performance Estimation Problems](https://arxiv.org/abs/1206.3209) - Y. Drori, M. Teboulle 
+* [Smooth Strongly Convex Interpolation and Exact Worst-case Performance of First-order Methods](https://arxiv.org/abs/1502.05666) - A. Taylor, J. Hendrickx, F. Glineur 
+* [Integration Methods and Accelerated Optimization Algorithms](https://arxiv.org/abs/1702.06751) - D. Scieur, V. Roulet, F. Bach, A. d'Aspremont 
