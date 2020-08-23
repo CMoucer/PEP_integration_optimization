@@ -1,10 +1,9 @@
 # PEP_integration_optimization
- Internship Inria (SIERRA)
 
 This project aims at transfering optimization techniques to integration methods, called Performance Estimation Problems (PEP).
 The following code provide a numerical tool to analyse algorithms, from optimization or integration, in terms of convergence to optimality and contraction between two sequences.
 We formulate the search for convergence and contraction rates over the family of smooth-stronly convex functions as a worst-case analysis that can be handled thnks to semi-definite programming. 
-More detail is given in the references.
+More details are given in the references.
 
 we provide the code for analyzing two families of methods from the integration setting : 
 - Runge-Kutta methods (gradient descent, extragradient, implicit Euler)
@@ -65,7 +64,7 @@ We provide some examples of sensitivity analysis of ther performance estimation 
 - compute rates at iteration (k+1) when restarting at iteration k at worst-case
 
 
-### Worst case function
+### Worst-case functions
 
 We provide a way to plot a function that satisfies the worst-case contraction rate of a method.
 Two examples given for : 
