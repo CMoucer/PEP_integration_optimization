@@ -54,7 +54,7 @@ We study them through :
 The file main_LMM.py enables to compute contraction and convergence rates for a Linear-Multi-step method over a family of convex functions.
 Some examples are given in Examples, especially how to plot rates as a function of the step size and the condition number.
 
-## More properties of RK and LMM methods through PEPs
+## More properties of RK and LMM methods through worst-case analyzes
 
 ### Sensitivity Analysis
 
