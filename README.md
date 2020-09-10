@@ -24,13 +24,13 @@ conda install -c conda-forge cvxpy
 ### Installing
 
 You can download a file, and run the file main.py, while changing some parameters.
-Each file provides a file example.py in addition of main.py.
+Each file provides a folder Examples in addition of main.py.
 
-## Running the test for families of Runge-Kutta and linear multi-step methods
+## Compute contraction and tight convergence rates for Runge-Kutta and linear multi-step methods
 
 Having download a subfile, you need to run main.py and select your parameter.
 For all files : 
-- gamma is the step size of the method
+- gamma : step size of the method
 - L : smoothness parameter of the class of functions
 - mu : strong convexity parameter of the the class of function (0 < mu < L)
 
@@ -54,10 +54,11 @@ We study them through :
 The file main_LMM.py enables to compute contraction and convergence rates for a Linear-Multi-step method over a family of convex functions.
 Some examples are given in Examples, especially how to plot rates as a function of the step size and the condition number.
 
+## More properties of RK and LMM methods through PEPs
 
 ### Sensitivity Analysis
 
-We provide some examples of sensitivity analysis of ther performance estimation problems : 
+We provide some examples of sensitivity analysis of the performance estimation problems : 
 - computing rates at different iterations
 - compute rates at iteration (k+1) when restarting at iteration k at worst-case
 
@@ -67,7 +68,7 @@ We provide some examples of sensitivity analysis of ther performance estimation 
 We provide a way to plot a function that satisfies the worst-case contraction rate of a method.
 Two examples given for : 
 - Nesterov's accelerated method (dimension two)
-- a contractive scheme (dimension one)
+- a contractive scheme (dimension two)
 
 
 
